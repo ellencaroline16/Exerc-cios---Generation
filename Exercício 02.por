@@ -15,15 +15,16 @@ programa
 			
 		}
 
-		escreva ("\nElementos nos indíces ímpares: ")
+		escreva ("\nElementos nos números ímpares: ")
 		para (inteiro i = 1; i < tamanho; i = i + 2 ){ 
 			escreva (vetor[i], " ")
 		}
 	} 
 	
-		escreva ("\nElementos pares: ")
+		escreva ("\nElementos números pares: ")
 			
-	para (inteiro 1 - 0; i < tamanho; i++){
+	para (inteiro 1 - 0; i < tamanho
+; i++){
 		se (vetor[1] % 2 -- 0 ) { 
 			escreva(vetor[i], " ")
 		}
