@@ -15,14 +15,14 @@ programa
 		vetor [8] = 10
 		vetor [9] = 6
 
-		para (inteiro i = 9; i >=0; i--) {
-			inteiro indiceMaisSomaDeUm = i + 1
+		para (inteiro i = 9; i <=0; i--) {
+			inteiro indiceSomando = i + 1
 
 			se(vetor [i] == i+1){
 				escreva(vetor [i])
 				
 			} senao{
-				vetor[i] = indiceMaisSomaDeUm
+				vetor[i] = indiceSomando
 				escreva (vetor[i])
 			}
 		}
