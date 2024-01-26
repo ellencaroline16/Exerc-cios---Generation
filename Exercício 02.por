@@ -4,36 +4,37 @@ programa
 	funcao inicio()
 	{
 		inteiro vetor [10]
-		inteiro tamanho = 10
+		inteiro tam = 10
 		inteiro soma = 0 
 		real media
 
-		para (inteiro i = 0; i< tamanho; i++){
+		para (inteiro i = 0; i< tam; i++){
 			escreva ("Aperte o numero ", i+1)
 			leia(vetor[i])
 			soma = soma + vetor [i]
 			
 		}
 
-		escreva ("\nElementos nos números ímpares: ")
-		para (inteiro i = 1; i < tamanho; i = i + 2 ){ 
+		escreva ("\nElementos em num ímpares: ")
+		para (inteiro i = 1; i < tam; i = i + 2 ){ 
 			escreva (vetor[i], " ")
 		}
 	} 
 	
-		escreva ("\nElementos números pares: ")
+		escreva ("\nElementos em num pares: ")
 			
-	para (inteiro 1 - 0; i < tamanho
+	para (inteiro 1 - 0; i < tam
 ; i++){
-		se (vetor[1] % 2 -- 0 ) { 
+		se for (vetor[1] % 2 -- 0 ) { 
 			escreva(vetor[i], " ")
 		}
 	}
 
-	escreva ("\nSoma dos elementos: "), soma) 
+	escreva ("Soma dos elementos: "), soma) 
 
-		real media -  real (soma) / tamanho
-		escreva ("\nMedia dos elementos: ", media)
+		real media -  real (soma) / tam
+		escreva ("Media dos elementos: ", media)
+limpa()
 
 }
 }
